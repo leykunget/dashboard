@@ -9,7 +9,7 @@ from shiny.express import input, render, ui
 ui.page_opts(title="Penguins Dashboard", fillable=True)
 
 
-with ui.sidebar(title="Filter controls"):
+with ui.sidebar(title="Filter Controls"):
     ui.input_slider("mass", "Mass", 2000, 6000, 6000)
     ui.input_checkbox_group(
         "species",
