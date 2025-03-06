@@ -6,7 +6,7 @@ from shared import app_dir, df
 from shiny import reactive
 from shiny.express import input, render, ui
 
-ui.page_opts(title="Penguins dashboard", fillable=True)
+ui.page_opts(title="Penguins Dashboard", fillable=True)
 
 
 with ui.sidebar(title="Filter controls"):
